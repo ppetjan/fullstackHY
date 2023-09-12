@@ -32,24 +32,8 @@ body {
 }
 
 h1 {
-  color: green;
-  font-style: italic;
-}
-
-.note {
-  color: grey;
-  padding-top: 5px;
-  font-size: 15px;
-}
-
-.error {
-  color: red;
-  background: lightgrey;
-  font-size: 20px;
-  border-style: solid;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 
 button {
@@ -69,6 +53,28 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.actionNotification {
+  color: green;
+  font-family: 'Times New Roman', Times, serif;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.errorNotification {
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 @media (prefers-color-scheme: light) {
